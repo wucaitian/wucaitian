@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T07:35:53.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" etag="RDizcJINMh6hWI7NMWOa" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T08:02:12.851Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" etag="WccbZjMVjXkmqx7HDZq5" version="20.8.23" type="github">
   <diagram id="1HvbYhtdSqmgL1F3OeFL" name="第 1 页">
-    <mxGraphModel dx="1466" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1207" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -288,7 +288,7 @@
         <mxCell id="8b6VTSP2SglXUmAgMh4o-105" value="弹性伸缩AS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1344" y="689" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8b6VTSP2SglXUmAgMh4o-106" value="呼叫中心、非车险、车险核心各应用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8b6VTSP2SglXUmAgMh4o-106" value="呼叫中心、车险核心各应用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1206" y="659" width="214" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8b6VTSP2SglXUmAgMh4o-107" value="RDS备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -316,15 +316,32 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8b6VTSP2SglXUmAgMh4o-114" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1190" y="704" as="sourcePoint" />
-            <mxPoint x="1060" y="704.29" as="targetPoint" />
+        <mxCell id="8b6VTSP2SglXUmAgMh4o-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8b6VTSP2SglXUmAgMh4o-3" target="8b6VTSP2SglXUmAgMh4o-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="830" />
+              <mxPoint x="1260" y="830" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8b6VTSP2SglXUmAgMh4o-115" value="第三方复制工具" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8b6VTSP2SglXUmAgMh4o-114">
-          <mxGeometry x="0.1639" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="8b6VTSP2SglXUmAgMh4o-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" target="8b6VTSP2SglXUmAgMh4o-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="740" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="610" y="740" />
+              <mxPoint x="610" y="770" />
+              <mxPoint x="1380" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8b6VTSP2SglXUmAgMh4o-120" value="第三方复制工具&lt;br&gt;应用级别容灾" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8b6VTSP2SglXUmAgMh4o-118">
+          <mxGeometry x="-0.2679" y="1" relative="1" as="geometry">
+            <mxPoint x="243" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8b6VTSP2SglXUmAgMh4o-121" value="第三方复制工具&lt;br&gt;应用级别容灾" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1149.9987659721974" y="809.998823529412" as="geometry">
+            <mxPoint x="-18" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
