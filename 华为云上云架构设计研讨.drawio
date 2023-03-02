@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T09:33:43.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" etag="vufR8htsKjX1kH-WogNZ" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T09:47:10.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" etag="6bcA8rb_RpAnwqNwkPxY" version="20.8.23" type="github">
   <diagram id="1HvbYhtdSqmgL1F3OeFL" name="第 1 页">
     <mxGraphModel dx="1466" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -383,7 +383,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8b6VTSP2SglXUmAgMh4o-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;endArrow=none;endFill=0;" edge="1" parent="1" source="8b6VTSP2SglXUmAgMh4o-137" target="8b6VTSP2SglXUmAgMh4o-140">
+        <mxCell id="8b6VTSP2SglXUmAgMh4o-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;endArrow=none;endFill=0;" edge="1" parent="1" source="8b6VTSP2SglXUmAgMh4o-137" target="8b6VTSP2SglXUmAgMh4o-149">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8b6VTSP2SglXUmAgMh4o-148" value="DNS服务授权0%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="8b6VTSP2SglXUmAgMh4o-139">
@@ -397,11 +397,14 @@
         <mxCell id="8b6VTSP2SglXUmAgMh4o-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.555;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;endArrow=none;endFill=0;" edge="1" parent="1" source="8b6VTSP2SglXUmAgMh4o-140" target="8b6VTSP2SglXUmAgMh4o-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8b6VTSP2SglXUmAgMh4o-140" value="弹性EIP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1265" y="555" width="120" height="20" as="geometry" />
+        <mxCell id="8b6VTSP2SglXUmAgMh4o-140" value="Nginx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="590" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8b6VTSP2SglXUmAgMh4o-144" value="访问客户端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1130" y="260" width="15" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8b6VTSP2SglXUmAgMh4o-149" value="弹性EIP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="560" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
