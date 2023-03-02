@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T07:25:39.498Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" etag="yu1WTRTeb1AuyEHnIyN_" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T07:35:53.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" etag="RDizcJINMh6hWI7NMWOa" version="20.8.23" type="github">
   <diagram id="1HvbYhtdSqmgL1F3OeFL" name="第 1 页">
     <mxGraphModel dx="1466" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -306,9 +306,25 @@
         <mxCell id="8b6VTSP2SglXUmAgMh4o-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="8b6VTSP2SglXUmAgMh4o-83" target="8b6VTSP2SglXUmAgMh4o-107">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="383" y="1170" />
-              <mxPoint x="1260" y="1170" />
+              <mxPoint x="383" y="1260" />
+              <mxPoint x="1260" y="1260" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8b6VTSP2SglXUmAgMh4o-113" value="非核心应用数据级容灾" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8b6VTSP2SglXUmAgMh4o-112">
+          <mxGeometry x="0.0337" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8b6VTSP2SglXUmAgMh4o-114" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1190" y="704" as="sourcePoint" />
+            <mxPoint x="1060" y="704.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8b6VTSP2SglXUmAgMh4o-115" value="第三方复制工具" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8b6VTSP2SglXUmAgMh4o-114">
+          <mxGeometry x="0.1639" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
