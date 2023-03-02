@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T08:08:59.801Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" etag="ZH4zKTaiWI5_4szAQaWC" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T08:17:11.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" etag="Vou0hhnE4HX3b_h-zw0K" version="20.8.23" type="github">
   <diagram id="1HvbYhtdSqmgL1F3OeFL" name="第 1 页">
     <mxGraphModel dx="1207" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -292,7 +292,7 @@
           <mxGeometry x="1206" y="659" width="214" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8b6VTSP2SglXUmAgMh4o-107" value="RDS备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="1040" width="120" height="50" as="geometry" />
+          <mxGeometry x="1270" y="1040" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8b6VTSP2SglXUmAgMh4o-108" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1240" y="868" width="180" height="70" as="geometry" />
@@ -302,19 +302,6 @@
         </mxCell>
         <mxCell id="8b6VTSP2SglXUmAgMh4o-110" value="分布式数据库中间件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1240" y="863" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="8b6VTSP2SglXUmAgMh4o-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="8b6VTSP2SglXUmAgMh4o-83" target="8b6VTSP2SglXUmAgMh4o-107">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="383" y="1250" />
-              <mxPoint x="1260" y="1250" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8b6VTSP2SglXUmAgMh4o-113" value="非核心应用数据级容灾" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8b6VTSP2SglXUmAgMh4o-112">
-          <mxGeometry x="0.0337" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="8b6VTSP2SglXUmAgMh4o-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8b6VTSP2SglXUmAgMh4o-3" target="8b6VTSP2SglXUmAgMh4o-102">
           <mxGeometry relative="1" as="geometry">
@@ -352,6 +339,17 @@
         </mxCell>
         <mxCell id="8b6VTSP2SglXUmAgMh4o-124" value="云连接CC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="1090" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8b6VTSP2SglXUmAgMh4o-125" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1190" y="1074" as="sourcePoint" />
+            <mxPoint x="1060" y="1074" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8b6VTSP2SglXUmAgMh4o-126" value="数据1:1:1复制" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8b6VTSP2SglXUmAgMh4o-125">
+          <mxGeometry x="0.1639" relative="1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
